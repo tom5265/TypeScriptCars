@@ -2,7 +2,6 @@
 
 class Vehicle {
     public div: HTMLElement;
-    public speed: number;
     public damageLimit: number;
     public damage: number;
 
@@ -13,7 +12,6 @@ class Vehicle {
             left: Math.floor(Math.random() * 1200),
             top: Math.floor(Math.random() * 500)
         });
-        this.speed = null;
         this.damageLimit = null;
         this.damage = null;
     }
