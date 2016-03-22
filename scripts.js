@@ -12,7 +12,6 @@ var Vehicle = (function () {
             left: Math.floor(Math.random() * 1200),
             top: Math.floor(Math.random() * 500)
         });
-        this.speed = null;
         this.damageLimit = null;
         this.damage = null;
     }
