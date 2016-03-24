@@ -1,9 +1,9 @@
 /// <reference path="typings/browser.d.ts" />
 
 class Vehicle {
-    public div: HTMLElement;
-    public damageLimit: number;
-    public damage: number;
+    div: HTMLDivElement;
+    damageLimit: number;
+    damage: number;
 
     constructor() {
         this.div = document.createElement('div');
